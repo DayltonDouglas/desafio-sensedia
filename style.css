@@ -20,7 +20,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(68, 234, 234, 1);
+    background-color: gray;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
@@ -154,12 +154,16 @@ h4 {
     top: 1em;
 }
 #button-login{
-   
     position: absolute;
-    width: 65px;
+    width: 6px;
     height: 35px;
     left: 90%;
     top: 1em;
     border-radius: 50px;
+}
+#user-login{
+    position: absolute;
+    right: -27px;
+    top: -4px;
 }
 
